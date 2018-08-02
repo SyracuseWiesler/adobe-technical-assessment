@@ -1,4 +1,7 @@
 public class Problem55 {
+    /**
+     * the numeric value of sum may overflow the Long.MAX_VALUE. I solved this by using calculation of strings
+     * */
     public static int countLychrel(){
         int count = 0;
         for(int i = 1; i < 10000; i ++) {

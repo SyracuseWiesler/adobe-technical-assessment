@@ -1,4 +1,7 @@
 public class Problem81 {
+    /**
+     * keep checking the minimum sum to go right or bottom until reach the bottom right corner of matrix
+     * */
     public static int minPathSum(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
@@ -15,5 +18,4 @@ public class Problem81 {
         }
         return matrix[rows - 1][cols - 1];
     }
-
 }

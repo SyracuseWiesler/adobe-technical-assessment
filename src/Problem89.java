@@ -1,5 +1,9 @@
 import java.util.*;
 public class Problem89 {
+    /**
+     * 1 convert the roman expression to integer
+     * 2 conver the integer to compact roman expression
+     * */
     public static int count(String[] strs){
         int count = 0;
         for(String s : strs) {

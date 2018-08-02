@@ -6,10 +6,10 @@ public class Results {
         printProblem81Result();
         printProblem89Result();
     }
-    public static void printProblem55Result(){
+    private static void printProblem55Result(){
         System.out.println(Problem55.countLychrel());
     }
-    public static void printProblem81Result(){
+    private static void printProblem81Result(){
         byte[] bytes = bufferedStreamRead("./p081_matrix.txt");
         if(bytes != null) {
             String[] strs = new String(bytes).split("\n");
@@ -23,7 +23,7 @@ public class Results {
             System.out.println(Problem81.minPathSum(matrix));
         }
     }
-    public static void printProblem89Result(){
+    private static void printProblem89Result(){
         byte[] bytes1 = bufferedStreamRead("./p089_roman.txt");
         if(bytes1 != null) {
             String[] strings = new String(bytes1).split("\n");
